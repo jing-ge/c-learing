@@ -2,5 +2,8 @@
 
 int main()
 {
-	return 0
+	int a = 0XC3;
+	a |= 1<<5;
+	printf("a = %X\n",a);
+	return 0;
 }
